@@ -1,0 +1,90 @@
+body {
+  font-family: 'Inter', sans-serif !important;
+  margin: 0;
+  width: 300px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.container {
+  padding: 10px;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rest{
+  display: flex;
+
+}
+button {
+  font-family: 'Inter', sans-serif !important;
+  background-color: #0077B5dd;
+  color: #fff;
+  font-size: 14px;
+/*  font-weight: 500;*/
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}
+#startButton{
+  width: 100%;
+
+}
+#stopButton {
+  background-color: #e74c3c88;
+    flex-grow: 1;
+}
+
+#copyButton {
+  background-color: #E8945588;
+    flex-grow: 1;
+}
+
+#downloadButton{
+  background-color: #138d7588;
+    flex-grow: 1;
+}
+#followButton{
+  background-color: ;
+
+}
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgba(15, 115, 10, 0.42);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.emails-container {
+  margin-top: 10px;
+}
+
+.email {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
+
+.email:hover {
+  background-color: #e0e0e0;
+}
+
+
+#footer {
+      background-color: #ccc;
+      padding: 2px;
+      position: sticky;
+      bottom: 0;
+      margin: 0 auto;
+      border-radius: 4px;
+    }
